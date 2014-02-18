@@ -16,6 +16,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link href="css/custom.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <script src="js/jquery-2.0.3.min.js"></script>
@@ -56,15 +57,10 @@
     </div>
 
     <div class="container">
-      <div class="page-header">
-        <h1>p2pool <span id='currency'></span> &dash; node dashboard</h1>
-        <b>
-          <small>
-            Node: <span id='node'></span>&nbsp;&dash;
-            Updated: <span id='updated'></span>
-          </small>
-        </b>
-      </div>
+        <div class="page-header text-center">
+	    <img src="img/vertlogo.png" style="width:501px;height:108px;">
+            <h2>stratum+tcp://54.84.178.38:9171</h2><b><small>Updated: <span id='updated'></span></small></b>
+        </div><!-- Alerts -->
 
       <div id='node_alerts' class="alert alert-danger hidden"></div>
 

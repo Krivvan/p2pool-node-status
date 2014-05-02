@@ -57,19 +57,18 @@
     </div>
 
     <div class="container">
-        <div class="page-header text-center">
-	    <img src="img/vertlogo.png" style="width:206px;height:300px;">
-            <h2>Merged mining:   stratum+tcp://107.170.105.6:9555</h2>
-            <h2>Vertcoin mining: stratum+tcp://107.170.105.6:9171</h2><b><small>Updated: <span id='updated'></span></small></b>
-        </div><!-- Alerts -->
-
-      <div id='node_alerts' class="alert alert-danger hidden"></div>
-
-      <!-- We should have a possiblity showing other miners on our node what
-           happened or if we have other things to tell them. -->
-      <div class="alert alert-info hidden">
-        <p><b>2013-12-13: This is a message to miners on my node telling them something really cool.</b></p>
-      </div>
+      <div class="page-header text-center">
+      <img src="img/vertlogo.png" style="width:206px;height:300px;">
+    </div>
+    
+    <div class="container">
+        <div class="page-header text-left">
+            <h2>Merged mining:</h2>
+            <p>Point miner to stratum+tcp://107.170.105.6:9555 with Vertcoin address as username and Monocle address as password (vertminer.exe -o "stratum+tcp://107.170.105.6:9555" -u "VTC-ADDRESS" -p "MON-ADDRESS")</p>
+            <h2>Vertcoin mining:</h2>
+            <p>Point miner to stratum+tcp://107.170.105.6:9171 with Vertcoin address as username (vertminer.exe -o "stratum+tcp://107.170.105.6:9171" -u "VTC-ADDRESS" -p "Anything")</p>
+            <br><small>Updated: <span id='updated'></span></small>
+        </div>
       
       <center>
         <div class='container'>
